@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-container {
+    padding: 50px 0;
+}
+
+.welcome-message {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.registration-form input {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #003366;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #00509e;
+    transform: scale(1.1);
+}
+
+.table {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #00509e;
+}
+
+.video-section {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.video-section video {
+    width: 50%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: block;
+}
+
+#location {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+h1, h2, h3 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .registration-form input {
+        font-size: 1em;
+    }
+
+    .btn-primary {
+        font-size: 1em;
+    }
+
+    .video-section video {
+        max-width: 100%;
+    }
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme a {
+    color: #4da6ff;
+}
+
+.dark-theme header, .dark-theme footer {
+    background-color: #222;
+    color: #ddd;
+}
+
+
+.navigation .active {
+    background-color: #00509e;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid #003366;
+}

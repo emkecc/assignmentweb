@@ -1,0 +1,8 @@
+
+{
+    "products": [
+        {"name": "Football Kit 1", "price": 50},
+        {"name": "Football Kit 2", "price": 55},
+        {"name": "Football Kit 3", "price": 60}
+    ]
+}

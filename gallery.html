@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer>
+        if (!localStorage.getItem('user')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-bar" class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="form.html">Contact Form</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="gallery-view">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="football1.jpg" alt="Football 1" class="thumbnail">
+            <img src="football2.jpg" alt="Football 2" class="thumbnail">
+            <img src="football3.jpg" alt="Football 3" class="thumbnail">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 EMIL CULOV</p>
+    </footer>
+</body>
+</html>
